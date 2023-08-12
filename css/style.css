@@ -334,3 +334,32 @@ footer img{
 #081700
 #b5e3a2
 #25552b*/
+.containerbis1{
+    background-color:#ecfee4 ;
+    height: 100px;
+    padding-top: 1.25rem;
+    padding-left: 1.25rem;
+}
+.textbis1{
+text-decoration: none;
+color: #000000;
+cursor: pointer;
+}
+
+.komoot1{
+    width:640px;
+    height:600px;
+    margin-left:20px;
+    margin-top: 10px;
+}
+@media screen and (max-width:685px) {
+    .komoot1 {
+        width:90vw;
+        height:600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
